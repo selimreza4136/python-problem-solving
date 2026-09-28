@@ -39,14 +39,14 @@
 # One-Time Password (OTP) string of a given length (e.g., "482910"). Ensure that the returned
 # OTP retains leading zeroes properly if generated.
 
-import random
-
-def generate_otp(length=6):
-    digits = [str(random.randint(0, 9)) for _ in range(length)]
-    return "".join(digits)
-
-# Generate 6-digit OTP
-otp_code = generate_otp(6)
-
-print("Generated OTP:", otp_code)
+# import random
+#
+# def generate_otp(length=6):
+#     digits = [str(random.randint(0, 9)) for _ in range(length)]
+#     return "".join(digits)
+#
+# # Generate 6-digit OTP
+# otp_code = generate_otp(6)
+#
+# print("Generated OTP:", otp_code)
 
